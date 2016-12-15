@@ -1,5 +1,13 @@
 # Join Lines Extension for Visual Studio Code
 
+## As of VSCode version 1.8.0, this extention is no longer necessary
+
+To use the built-in editor join functionality, add "editor.action.joinLines" to your keybindings.
+
+```
+{ "key": "ctrl+j", "command": "editor.action.joinLines", "when": "editorTextFocus" }
+```
+
 ## Feature Overview
 
 Use Ctrl+j | ⌘+j to join lines, just like in Atom and similar to Sublime Text: the next line is joined to
